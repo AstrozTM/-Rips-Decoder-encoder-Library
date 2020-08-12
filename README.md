@@ -6,14 +6,13 @@
 <p align="center">
 <light>Rips Decoder/Encoder Library</light>
  </p>
-<p align="center">  
-  <a href="https://discord.gg/5HmepGK"><strong>Rip's Discord Server</strong></a>
-</p>
-
 <h5 align="center">This is a library to make custom UI for Rip's Decoder/Encoder with more custom functions.</h5>
  
- 
-## Credits 
+ # Support
+ <p align="center">  
+  <a href="https://discord.gg/5HmepGK"><strong>Rip's Discord Server</strong></a>
+</p>
+**Credits
 
 Main stuff like Decoder and Encoder made by: Riptxde#2970
 
