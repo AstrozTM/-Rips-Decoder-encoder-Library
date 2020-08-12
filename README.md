@@ -5,7 +5,7 @@
 </p>
 <p align="center">
 <light>Rips Encoder/Decoder Library</light>
- </p>ee custom functions.</h5>
+ </p>
  
  # Main
  This was created for developers to make custom UI's for Rip's Encoder/Decoder.
