@@ -12,10 +12,10 @@
  <p align="center">  
   <a href="https://discord.gg/5HmepGK"><strong>Rip's Discord Server</strong></a>
 </p>
-**Credits**
+<strong>Credits</strong>
 
-Main stuff like Decoder and Encoder made by: Riptxde#2970
+<light>Main stuff like Decoder and Encoder made by: Riptxde#2970</light>
 
-Rip's Parther: fourspacedgod#0001
+<light>Rip's Parther: fourspacedgod#0001</light>
 
-This Library was created by: Astroz#0001
+<light>This Library was created by: Astroz#0001</light>
