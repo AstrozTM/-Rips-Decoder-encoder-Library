@@ -20,10 +20,9 @@
 </p>
 
 # Credits
-```css
+
 Main stuff like Encoder and Decoder made by: [Riptxde#2970]
 
 Rip's Parther: [fourspacedgod#0001]
 
 This Library was created by: [Astroz#0001]
-```
