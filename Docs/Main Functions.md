@@ -17,7 +17,7 @@ print(e)
 
 # Decode
 ```lua
-<string> decode(variant <assetid>)
+<string> decode(variant <string>)
 ```
 This decodes any Encoded AssetId (Rip's/dot.mp4 Not inluded)
 <br>
