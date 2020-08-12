@@ -12,7 +12,7 @@
  <p align="center">  
   <a href="https://discord.gg/5HmepGK"><strong>Rip's Discord Server</strong></a>
 </p>
-**Credits
+**Credits**
 
 Main stuff like Decoder and Encoder made by: Riptxde#2970
 
