@@ -6,8 +6,13 @@
 <h3 align="center">
  Rips Encoder/Decoder Library
 </h3>
- 
+
  # Main
+ ```lua
+ print('Comming soon...')
+ ```
+ 
+ # Info
  This was created for developers to make custom UI's for Rip's Encoder/Decoder.
  
  The docs are located at 
