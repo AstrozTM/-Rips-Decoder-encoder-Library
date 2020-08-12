@@ -27,3 +27,18 @@ local EncodedAssetId = loadstring(game:HttpGet('https://pastebin.com/raw/7ZggHq7
 local d = decode(EncodedAssetId)
 print(d)
 ```
+
+# Verify
+```lua
+<string> verify(variant <string>)
+```
+this can be used to if you received an error in Encode process you need to verify.
+<br>
+Example:
+```lua
+local verifycode = 'v-e-r-i-f-y'
+local Encode = encode(1033033034)
+if Encode:match('verify') then
+   verify(verifycode)
+end
+```
