@@ -1,6 +1,6 @@
 ## Custom Functions
 
-#Decode Sound Objects in a table
+# Decode Sound Objects in a table
 ```lua
 <table> encodetable(variant <table>)
 ```
