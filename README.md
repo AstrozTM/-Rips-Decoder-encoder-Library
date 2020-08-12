@@ -2,4 +2,6 @@
 
 This is a library to make custom UIS for Rip's Decoder/Encoder with more custom functions.
 
-**This was created by Riptxde#2970, fourspacedgod#0001, and Astroz#0001  (Support at https://discord.com/invite/5HmepGK)**
+**Main stuff like Decoder and Encoder made by: Riptxde#2970**
+**Parther for Main Features: fourspacedgod#0001**
+**This Library was created by Astroz#0001**
