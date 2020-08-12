@@ -3,9 +3,9 @@
     <img src="https://cdn.discordapp.com/attachments/727216422987628659/742939195881816104/RipsLogo.png" alt="Rips Logo" width="185" height="165">
   </a>
 </p>
-<p align="center">
- <strong>Rips Encoder/Decoder Library</strong>
-</p>
+<h3 align="center">
+ Rips Encoder/Decoder Library
+</h3>
  
  # Main
  This was created for developers to make custom UI's for Rip's Encoder/Decoder.
