@@ -10,7 +10,8 @@
  
  # Support
  <p align="center">  
-  <a href="https://discord.gg/5HmepGK"><strong>For support go to Rip's Discord server</strong></a>
+  <strong> For Support go to </strong>
+  <a href="https://discord.gg/5HmepGK"><strong>Rip's Discord server</strong></a>
 </p>
 <strong>Credits</strong>
 
