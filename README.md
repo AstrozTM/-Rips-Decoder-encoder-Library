@@ -18,7 +18,8 @@
   <strong> For Support go to </strong>
   <a href="https://discord.gg/5HmepGK"><strong>Rip's Discord server</strong></a>
 </p>
-<strong>Credits</strong>
+
+# Credits
 
 <light>Main stuff like Encoder and Decoder made by: Riptxde#2970</light>
 
