@@ -4,7 +4,12 @@
   </a>
 </p>
 
-<h3 align="center">Rips Decoder/Encoder Library</h3>
+<h3 align="center">Rips Decoder/Encoder Library </h3>
+<p align="center">
+  <br>
+  <a href="https://discord.gg/5HmepGK"><Rips Discord »</strong></a>
+  <br>
+</p>
 
 <h5 align="center">This is a library to make custom UI for Rip's Decoder/Encoder with more custom functions.</h5>
  
