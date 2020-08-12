@@ -5,7 +5,6 @@
 </p>
 <h3 align="center">Rips Decoder/Encoder Library</h3>
 <p align="center">  
-  <br>
   <a href="https://discord.gg/5HmepGK"><strong>Rip's Discord Server</strong></a>
 </p>
 
