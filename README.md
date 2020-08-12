@@ -9,8 +9,9 @@
  
  # Main
  This was created for developers to make custom UI's for Rip's Encoder/Decoder.
+ 
  The docs are located at 
- <a href="https://github.com/AstrozTM/-Rips-Decoder-encoder-Library/tree/master/Docs"><light>here</light>/a>
+ <a href="https://github.com/AstrozTM/-Rips-Decoder-encoder-Library/tree/master/Docs"><light>here</light></a>
   
  # Support
  <p align="center">  
