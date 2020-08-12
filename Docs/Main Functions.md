@@ -20,6 +20,7 @@ print(e)
 <string> decode(variant <assetid>)
 ```
 This decodes any Encoded AssetId (Rip's/dot.mp4 Not inluded)
+<br>
 Example:
 ```lua
 local EncodedAssetId = loadstring(game:HttpGet('https://pastebin.com/raw/7ZggHq7Y',true)()
