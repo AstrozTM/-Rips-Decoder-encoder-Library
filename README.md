@@ -4,10 +4,14 @@
   </a>
 </p>
 <p align="center">
-<light>Rips Decoder/Encoder Library</light>
- </p>
-<h5 align="center">This is a library to make custom UI for Rip's Decoder/Encoder with more custom functions.</h5>
+<light>Rips Encoder/Decoder Library</light>
+ </p>ee custom functions.</h5>
  
+ # Main
+ This was created for developers to make custom UI's for Rip's Encoder/Decoder.
+ The docs are located at 
+ <a href="https://discord.gg/5HmepGK"><here></a>
+  
  # Support
  <p align="center">  
   <strong> For Support go to </strong>
@@ -15,7 +19,7 @@
 </p>
 <strong>Credits</strong>
 
-<light>Main stuff like Decoder and Encoder made by: Riptxde#2970</light>
+<light>Main stuff like Encoder and Decoder made by: Riptxde#2970</light>
 
 <light>Rip's Parther: fourspacedgod#0001</light>
 
