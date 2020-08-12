@@ -1,3 +1,5 @@
+## Custom Functions
+
 # Table Encode
 ```lua
 <table> encoedetable(variant <table>)
