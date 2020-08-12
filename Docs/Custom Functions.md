@@ -9,4 +9,8 @@ Example:
 ```lua
 local TableToSearch = game.Workspace:GetDescendants()
 local decodedTable = encodetable(TableToSearch)
+for i,v in pairs(decodedTable) do
+ print(v)
+ break
+end
 ```
