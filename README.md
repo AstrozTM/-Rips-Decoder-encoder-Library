@@ -4,7 +4,7 @@
   </a>
 </p>
 <p align="center">
- <h3>Rips Encoder/Decoder Library</h3>
+ <strong>Rips Encoder/Decoder Library</strong>
 </p>
  
  # Main
