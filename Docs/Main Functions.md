@@ -4,6 +4,8 @@
 ```lua
 <string> encode(variant <object,string>)
 ```
+This Encodes any assetid but it's more used for (Sound Ids)
+<br>
 Example:
 ```lua
 local S = Instace.new('Sound')
@@ -17,6 +19,7 @@ print(e)
 ```lua
 <string> decode(variant <assetid>)
 ```
+This decodes any Encoded AssetId (Rip's/dot.mp4 Not inluded)
 Example:
 ```lua
 local EncodedAssetId = loadstring(game:HttpGet('https://pastebin.com/raw/7ZggHq7Y',true)()
