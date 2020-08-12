@@ -4,7 +4,7 @@
 ```lua
 <table> encoedetable(variant <table>)
 ```
-This is unlike the Main Encode function, This one encodes all sound objects or strings on a table!
+This is unlike the Main Encode function, This one encodes all sound instances or strings on a table!
 <br>
 Example:
 ```lua
@@ -21,7 +21,7 @@ end
 ```lua
 <table> decodetable(variant <table>)
 ```
-This is unlike the Main Decode function,This one decodes all sound objects or strings on a table!
+This is unlike the Main Decode function,This one decodes all sound instances or strings on a table!
 <br>
 Example:
 ```lua
