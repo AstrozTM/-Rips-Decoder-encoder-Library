@@ -13,6 +13,7 @@
  ```
  
  # Info
+ library can be used by loadstring bellow.
  This was created for developers to make custom UI's for Rip's Encoder/Decoder.
  
  The docs are located at 
