@@ -6,7 +6,7 @@
 <h3 align="center">Rips Decoder/Encoder Library</h3>
 <p align="center">  
   <br>
-  <a href="https://discord.gg/5HmepGK">Rip's Discord Server</a>
+  <a href="https://discord.gg/5HmepGK"><strong>Rip's Discord Server</strong></a>
 </p>
 
 <h5 align="center">This is a library to make custom UI for Rip's Decoder/Encoder with more custom functions.</h5>
