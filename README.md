@@ -3,7 +3,9 @@
     <img src="https://cdn.discordapp.com/attachments/727216422987628659/742939195881816104/RipsLogo.png" alt="Rips Logo" width="185" height="165">
   </a>
 </p>
+<p align="center">
 <light>Rips Decoder/Encoder Library</light>
+ </p>
 <p align="center">  
   <a href="https://discord.gg/5HmepGK"><strong>Rip's Discord Server</strong></a>
 </p>
