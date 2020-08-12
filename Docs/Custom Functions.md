@@ -3,6 +3,8 @@
 <table> encoedetable(variant <table>)
 ```
 This is unlike the Main encode function, This one encodes all sound objects or strings on a table!
+<br>
+Example:
 ```lua
 local TableToSearch = {'2733053836'}
 local EncodedTable = encodedtable(TableToSearch)
