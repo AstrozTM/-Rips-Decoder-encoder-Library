@@ -2,7 +2,7 @@
 
 # Table Decode
 ```lua
-<table> encodetable(variant <table>)
+<table> decodetable(variant <table>)
 ```
 This is unlike the Main Decode function,This one decodes all sound objects on a table!
 Example:
