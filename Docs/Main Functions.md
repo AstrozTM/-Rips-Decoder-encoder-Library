@@ -1,6 +1,6 @@
 ## Main Functions
 
-# Encode AssetId
+# Encode
 ```lua
 <string> encode(variant <object,string>)
 ```
@@ -13,7 +13,7 @@ print(e)
 --// The return on this function it's useless if you gave a sound object to write the assetid to sound object.
 ```
 
-# Decode AssetId
+# Decode
 ```lua
 <string> decode(variant <assetid>)
 ```
