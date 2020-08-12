@@ -4,8 +4,8 @@
   </a>
 </p>
 <p align="center">
-<h3>Rips Encoder/Decoder Library</h3>
- </p>
+ <h3>Rips Encoder/Decoder Library</h3>
+</p>
  
  # Main
  This was created for developers to make custom UI's for Rip's Encoder/Decoder.
