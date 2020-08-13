@@ -32,7 +32,7 @@ print(d)
 ```lua
 <string> verify(variant <string>)
 ```
-this can be used to if you received an error in Encode process you need to verify.
+This can be used to verify this is optional since the user can always use the one provided here (https://discord.gg/5HmepGK)
 <br>
 Example:
 ```lua
