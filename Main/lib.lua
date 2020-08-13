@@ -58,7 +58,7 @@ end
 		AssetID = rurl..tostring(AssetID)
 	end
 	local decodedid = Request({
-		Body = 'soundid='..Escape(AssetID);
+		Body = 'soundid='..UrlEncode(AssetID);
 		Url = durl;
 		Method = 'POST';
 	})['Body']
