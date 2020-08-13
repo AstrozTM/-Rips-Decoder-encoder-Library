@@ -10,7 +10,7 @@
  # Main
  library can be used by loadstring bellow.
  ```lua
-loadstring(game:HttpGet('https://github.com/AstrozTM/-Rips-Decoder-encoder-Library/blob/master%2FMain%2FRip's%20Encoder%20and%20Decoder%20Library.lua',true)()
+loadstring(game:HttpGet('https://github.com/AstrozTM/-Rips-Decoder-encoder-Library/blob/master%2FMain%2Flib.lua',true)()
  ```
  
  # Info
