@@ -8,6 +8,7 @@ This is unlike the Main Encode function, This one encodes all sound instances or
 <br>
 Example:
 ```lua
+loadstring(game:HttpGet('https://github.com/AstrozTM/-Rips-Decoder-encoder-Library/blob/master%2FMain%2Flib.lua',true)()
 local TableToSearch = {'2733053836'}
 local EncodedTable = encodedtable(TableToSearch)
 for i,v in pairs(EncodedTable) do
@@ -25,6 +26,7 @@ This is unlike the Main Decode function,This one decodes all sound instances or 
 <br>
 Example:
 ```lua
+loadstring(game:HttpGet('https://github.com/AstrozTM/-Rips-Decoder-encoder-Library/blob/master%2FMain%2Flib.lua',true)()
 local TableToSearch = game.Workspace:GetDescendants()
 local decodedTable = decodedtable(TableToSearch)
 for i,v in pairs(decodedTable) do
