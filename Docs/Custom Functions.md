@@ -17,6 +17,7 @@ for i,v in pairs(EncodedTable) do
  break
 end
 ```
+
 # Table Decode
 ```lua
 <table> decodetable(variant <table>)
@@ -32,3 +33,23 @@ for i,v in pairs(decodedTable) do
  break
 end
 ```
+
+# Find Users
+```lua
+<table> findusers(<void>)
+```
+This finds users using this library
+<br>
+Example:
+```lua
+local Users = findusers()
+for i,v in pairs(Users) do
+  print(v.Name)
+end
+```
+
+# Hide
+```
+<void> hide(<void>)
+```
+This hides you when your using this library
