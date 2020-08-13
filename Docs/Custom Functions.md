@@ -49,7 +49,7 @@ end
 ```
 
 # Hide
-```
+```lua
 <void> hide(<void>)
 ```
 This hides you when your using this library
