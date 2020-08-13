@@ -1,15 +1,16 @@
 --// Rips Decoder/encoder made by Astroz and Rip \\--
   --// Settings \\--
-  local durl = 'https://riptxde.dev/audio-logger-v2.php'
-  local eurl = 'https://riptxde.dev/anti-logger-v2a.php?mode=false&id='
-  local rurl = 'http://www.roblox.com/asset/?id='
-  local vurl = 'https://riptxde.dev/auth.php?verification-code='
   local Request
   local RequestList = {
     syn,
     request,
     http_request
   }
+--// To Ignore \\--
+  local durl = 'https://riptxde.dev/audio-logger-v2.php'
+  local eurl = 'https://riptxde.dev/anti-logger-v2a.php?mode=false&id='
+  local rurl = 'http://www.roblox.com/asset/?id='
+  local vurl = 'https://riptxde.dev/auth.php?verification-code='
 for i,v in pairs(RequestList) do
    if v ~= nil then
       Request = v
