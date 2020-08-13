@@ -29,11 +29,11 @@ end
 getgenv().encode = function(AssetID,SoundObject)
  if AssetID ~= nil then
     local IS = game:GetService('InsertService')
-    local m = IS:LoadAsset(AssetID)
+    local m = IS:LoadAsset(tonumber(AssetID))
     if m ~= nil then
-    local encodedid = Request({Url = url..UrlEncode(AssetId); Method = 'GET'})['Body']
+    local encodedid = Request({Url = url..UrlEncode(tostring(AssetId)); Method = 'GET'})['Body']
     if encodedid:match('^Notice: New location detected') then
-     return 'Check your gmail for a verify code and if this has a verify function use it else use rips gui to verify thanks')
+     return 'Check your gmail for a verify code and if this has a verify function use it else use rips gui to verify thanks'
      elseif encodedid:match('^Error: ') then
      return encodedid
     end
@@ -53,12 +53,12 @@ end
 
 --// Decode \\--
   getgenv().decode = function(AssetID)
-	local arg = AssetID:gsub('%s',''):lower()
+	local arg = tostring(AssetID):gsub('%s',''):lower()
 	if not arg:match('^http://www.roblox.com/asset/%?id=' and not arg:match('^https://www.roblox.com/asset/%?id=') and not arg:match('^rbxassetid://') then
-		AssetId = rurl..AssetId
+		AssetID = rurl..tostring(AssetID)
 	end
 	local decodedid = Request({
-		Body = 'soundid='..Escape(AssetId);
+		Body = 'soundid='..Escape(AssetID);
 		Url = durl;
 		Method = 'POST';
 	})['Body']
