@@ -45,16 +45,16 @@ getgenv().encode = function(AssetID,SoundObject)
 else
     return 'The AssetID is not a valid one.'
 end
-    end
    else
    return 'Please Specify the ID'
  end
 end
 
+
 --// Decode \\--
   getgenv().decode = function(AssetID)
 	local arg = tostring(AssetID):gsub('%s',''):lower()
-	if not arg:match('^http://www.roblox.com/asset/%?id=' and not arg:match('^https://www.roblox.com/asset/%?id=') and not arg:match('^rbxassetid://') then
+	if not arg:match('^http://www.roblox.com/asset/%?id=') and not arg:match('^https://www.roblox.com/asset/%?id=') and not arg:match('^rbxassetid://') then
 		AssetID = rurl..tostring(AssetID)
 	end
 	local decodedid = Request({
@@ -63,7 +63,7 @@ end
 		Method = 'POST';
 	})['Body']
     if decodedid:match('^Notice: New location detected') then
-     return 'Check your gmail for a verify code and if this has a verify function use it else use rips gui to verify thanks')
+     return 'Check your gmail for a verify code and if this has a verify function use it else use rips gui to verify thanks'
      elseif decodedid:match('^Error: ') then
      return decodedid
     end
@@ -89,7 +89,7 @@ getgenv().encodetable = function(T)
 end    
  
   --// Decode Table \\--
-  getgenv().decodetable() = function(T)
+  getgenv().decodetable = function(T)
    local TableReturn = {}
      for i,v in pairs(T) do
        if v:IsA('Sound') then
