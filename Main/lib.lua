@@ -75,7 +75,6 @@ end
      return 'Check your gmail for a verify code and if this has a verify function use it else use rips gui to verify thanks'
      elseif decodedid:match('^Error: ') then
      return decodedid
-     else
     end
     wait(.8)
     return decodedid
