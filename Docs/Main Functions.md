@@ -5,6 +5,7 @@
 <string> encode(variant <string, Instance>)
 ```
 This Encodes any assetid but it's more used for (Sound Ids)
+If you specify a sound Instance it writes it to the Sound object.
 <br>
 Example:
 ```lua
@@ -12,7 +13,6 @@ local S = Instace.new('Sound')
 local assetid = 1033033034
 local e = encode(S,assetid) -- Does not matter if you tostring auto does it in the function
 print(e)
---// The return on this function it's useless if you gave a sound object to write the assetid to sound Instance.
 ```
 
 # Decode
