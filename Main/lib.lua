@@ -2,7 +2,7 @@
   --// Settings \\--
   local Request
   local RequestList = {
-    syn,
+    syn.request,
     request,
     http_request
   }
@@ -21,7 +21,7 @@ for i,v in pairs(RequestList) do
 end
 
 function UrlEncode(s)
- local urlencoded game:GetService('HttpService'):UrlEncode(s)
+ local urlencoded = game:GetService('HttpService'):UrlEncode(s)
  return urlencode
 end
 --// Encode Function \\--
