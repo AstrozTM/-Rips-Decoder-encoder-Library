@@ -6,7 +6,7 @@
 ```
 This Encodes any assetid but it's more used for (Sound Ids)
 <br>
-If you specify a sound Instance it writes it to the Sound object.
+If you specify a sound Instance it writes it to the Sound Instance.
 <br>
 Example:
 ```lua
