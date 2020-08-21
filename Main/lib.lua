@@ -17,8 +17,6 @@
 for i,v in pairs(RequestList) do
    if v ~= nil then
       Request = v
-      else
-      return "Http method not found maybe it's not listed please list the function"
    end
 end
 
