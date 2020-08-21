@@ -114,11 +114,10 @@ end
   --// Verify \\--
 getgenv().verify = function(Code)
   if Code ~= nil and Code ~= '' then
-    local ReturnResponce = Request({
-		Body = 'soundid='..Escape(AssetId);
-		Url = 'https://riptxde.dev/audio-logger-v2.php';
-		Method = 'POST';
-	})['Body']
+    local ReturnResponce =Request({
+      Url = vurl .. Code;
+      Method = 'GET';
+    })['Body']
     return ReturnResponce
   end
 end
