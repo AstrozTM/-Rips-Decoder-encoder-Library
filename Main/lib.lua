@@ -12,6 +12,7 @@
   local eurl = 'https://riptxde.dev/anti-logger-v2a.php?mode=false&id='
   local rurl = 'http://www.roblox.com/asset/?id='
   local vurl = 'https://riptxde.dev/auth.php?verification-code='
+  local epurl = 'https://riptxde.dev/anti-logger-v2a.php?mode=true&id='
 --// Request Setup \\--
 for i,v in pairs(RequestList) do
    if v ~= nil then
@@ -31,17 +32,22 @@ getgenv().encode = function(AssetID,SoundObject)
     local IS = game:GetService('InsertService')
     local m = IS:LoadAsset(tonumber(AssetID))
     if m ~= nil then
-    local encodedid = Request({Url = url..UrlEncode(tostring(AssetId)); Method = 'GET'})['Body']
+    local encodedid = Request({Url = url..UrlEncode(tostring(AssetID)); Method = 'GET'})['Body']
     if encodedid:match('^Notice: New location detected') then
      return 'Check your gmail for a verify code and if this has a verify function use it else use rips gui to verify thanks'
      elseif encodedid:match('^Error: ') then
      return encodedid
-    end
-    wait(.8)
-    if SoundObject ~= nil  then
+	else
+	  Request({
+	   Url = epurl .. UrlEncode(AssetID);
+	   Method = 'GET';
+	   })['Body']
+	wait(.8)
+  if SoundObject ~= nil  then
     SoundObject.SoundId = encodedid
-    end
-    return encodedid
+  end
+  return encodedid
+	end
 else
     return 'The AssetID is not a valid one.'
 end
