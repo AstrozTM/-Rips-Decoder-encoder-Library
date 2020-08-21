@@ -42,7 +42,7 @@ getgenv().encode = function(AssetID,SoundObject)
 	   })['Body']
 	wait(.8)
   if SoundObject ~= nil  then
-    SoundObject.SoundId = encodedid
+    SoundObject.SoundId = 'rbxassetid://' .. encodedid
   end
   return encodedid
 	end
