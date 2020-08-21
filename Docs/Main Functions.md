@@ -24,7 +24,7 @@ This decodes any Encoded AssetId (Rip's/dot.mp4 Not inluded)
 <br>
 Example:
 ```lua
-local EncodedAssetId = game:HttpGet('https://pastebin.com/raw/7ZggHq7Y',true)
+local EncodedAssetId =  loadstring(game:HttpGet('https://pastebin.com/raw/7ZggHq7Y',true)()
 local d = decode(EncodedAssetId)
 print(d)
 ```
