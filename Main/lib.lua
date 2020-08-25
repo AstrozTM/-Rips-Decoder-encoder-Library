@@ -77,9 +77,9 @@ getgenv().encodetable = function(T)
         local url2 = '^https://www.roblox.com/asset/%?id='
         local url3 = '^rbxassetid://'
         local Id = Sound.SoundId
-        if Id:match(url1) then Id = Id:sub(#url1) end
-        if Id:match(url2) then Id = Id:sub(#url2) end
-        if Id:match(url3) then Id = Id:sub(#url3) end
+        if Id:match(url1) then Id = Id:sub(#url1 - 1) end
+        if Id:match(url2) then Id = Id:sub(#url2 - 1) end
+        if Id:match(url3) then Id = Id:sub(#url3 - 1) end
         ReturnT[#ReturnT+1] = encode(Id)
      else
       ReturnT[#ReturnT+1] = encode(v)
