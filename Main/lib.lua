@@ -20,17 +20,20 @@ for i,v in pairs(RequestList) do
    end
 end
 
-function UrlEncode(s)
- local urlencoded = game:GetService('HttpService'):UrlEncode(s)
- return urlencode
+local UrlEncode = function(s)
+ return game:GetService('HttpService'):UrlEncode(s)
 end
 --// Encode Function \\--
 getgenv().encode = function(AssetID,SoundObject)
  if AssetID ~= nil then
     local IS = game:GetService('InsertService')
     local m = IS:LoadAsset(tonumber(AssetID))
-    if m ~= nil then
-    local encodedid = Request({Url = url..UrlEncode(tostring(AssetID)); Method = 'GET'})['Body']
+    for i,v in pairs(m:GetChildren()) do
+    if v ~= nil then
+    local encodedid = Request({
+    Url = eurl..UrlEncode(tostring(AssetID)); 
+    Method = 'GET'
+    })['Body']
     if encodedid:match('^Notice: New location detected') then
      return 'Check your gmail for a verify code and if this has a verify function use it else use rips gui to verify thanks'
      elseif encodedid:match('^Error: ') then
@@ -48,6 +51,7 @@ getgenv().encode = function(AssetID,SoundObject)
 	end
 else
     return 'The AssetID is not a valid one.'
+end
 end
    else
    return 'Please Specify the ID'
