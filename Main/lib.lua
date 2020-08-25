@@ -27,9 +27,6 @@ end
 getgenv().encode = function(AssetID,SoundObject)
  if AssetID ~= nil then
     local IS = game:GetService('InsertService')
-    local m = IS:LoadAsset(tonumber(AssetID))
-    for i,v in pairs(m:GetChildren()) do
-    if v ~= nil then
     local encodedid = Request({
     Url = eurl..UrlEncode(tostring(AssetID)); 
     Method = 'GET'
@@ -49,10 +46,6 @@ getgenv().encode = function(AssetID,SoundObject)
   end
   return encodedid
 	end
-else
-    return 'The AssetID is not a valid one.'
-end
-end
    else
    return 'Please Specify the ID'
  end
